@@ -45,7 +45,7 @@ public class TestSearch  extends BaseClass{
                 "Expecting " + expectedResult + " results, but got " + getresults());
     }
 
-    public int getresults(){
+    public void getresults(){
         return driver.findElements(By.cssSelector(".product-thumb"));
     }
 }
