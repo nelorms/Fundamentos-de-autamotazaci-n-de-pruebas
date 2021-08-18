@@ -3,17 +3,17 @@
 
 <suite name="Account Tests - Chrome">
     <test name="Login Tests">
-        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="TestAccount"/>
+            <class name="selenium.TestAccount"/>
         </classes>
     </test>
     <test name="Search Tests - Firefox">
-        <parameter name="browser" value="firefox"></parameter>
-        <parameter name="searchCriteria" value="iPhone"></parameter>
-        <parameter name="expectedResult" value="1"></parameter>
+        <parameter name="browser" value="firefox"/>
+        <parameter name="searchCriteria" value="iPhone"/>
+        <parameter name="expectedResult" value="1"/>
         <classes>
-            <class name="TestSearch"/>
+            <class name="selenium.TestSearch"/>
         </classes>
     </test>
 </suite>
