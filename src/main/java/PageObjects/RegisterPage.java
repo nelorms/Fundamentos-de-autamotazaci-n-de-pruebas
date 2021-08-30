@@ -17,7 +17,7 @@ public class RegisterPage {
     private By ConfirmLocator = By.name("confirm");
     private By ConfirmRegisterMessageLocator = By.xpath("//div[@id='content']/h1");
     private By TermsCheckBoxLocator = By.name("agree");
-    private By ContinueButtonLocator = By.xpath("//input[@value='Continue]");
+    private By ContinueButtonLocator = By.xpath("//input[@value='Continue']");
 
     public RegisterPage(WebDriver _driver){
         this.driver = _driver;

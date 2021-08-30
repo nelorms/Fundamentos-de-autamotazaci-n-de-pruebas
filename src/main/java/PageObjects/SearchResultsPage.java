@@ -15,7 +15,7 @@ public class SearchResultsPage extends BaseClass{
         super.driver = driver;
     }
     public int getResultsCount(){
-        return driver.findElement(resultsSelector).size();
+        return driver.findElements(resultsSelector).size();
     }
     public boolean isNoResultsVisible(){
         return driver.findElement(noResultsSelector).getAttribute("innerHTML").contains(ERROR_MESSAGE_NO_RESULTS_DISPLAYED);
